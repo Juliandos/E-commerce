@@ -1,11 +1,13 @@
-# Tienda Virtual de Ropa
+# E-commerce
 
 ## Descripción
 
-Este proyecto es una tienda virtual de ropa para hombres y mujeres. Permite a los usuarios explorar una variedad de prendas, agregarlas a un carrito de compras y realizar pedidos. La interfaz está construida con HTML, CSS y JavaScript, mientras que el backend está desarrollado en PHP.
+Este proyecto es una plataforma virtual que puede ser usada para adaptarla a un amplia gama de comercios en internet. Permite a los usuarios crear, modificar, eliminar y leer diferentes módulos como productos, personas, categorías, permite agregar productos al carrito de compras y realizar pedidos. La interfaz está construida con React, Angular, mientras que el backend está desarrollado en Nodejs y Python.
 
 ## Características
 
+- **Varias tecnologías**: Se usarón varias tecnologías para abarcar más conocimientos.
+- **CMS**: Sistema de gestión de contenido, por sus siglas en ingles.
 - **Exploración de productos**: Los usuarios pueden navegar a través de diferentes categorías de ropa.
 - **Carrito de compras**: Los usuarios pueden agregar productos a su carrito y ver un resumen del pedido.
 - **Gestión de usuarios**: Los usuarios pueden registrarse, iniciar sesión y gestionar su perfil.
@@ -16,49 +18,54 @@ Este proyecto es una tienda virtual de ropa para hombres y mujeres. Permite a lo
 
 ### Frontend
 
-- **HTML**
-- **CSS**
+- **Angular**
+- **React**
 - **JavaScript**
 
 ### Backend
 
-- **PHP**
+- **Pyhon**
+- **Nodejs**
 - **MySQL**
 
 ## Instalación
 
 Sigue estos pasos para configurar el proyecto en tu máquina local:
 
-### Frontend
-
-1. Clona el repositorio:
-    ```sh
-    git clone git@github.com:TuUsuario/tienda-virtual-frontend.git
-    ```
-
-2. Navega al directorio del proyecto:
-    ```sh
-    cd tienda-virtual-frontend
-    ```
-
 ### Backend
 
-1. Clona el repositorio:
+1. Configura la base de datos en `config.php` con tus credenciales de MySQL.
+   
+2. Clona el repositorio:
     ```sh
-    git clone git@github.com:TuUsuario/tienda-virtual-backend.git
+    git clone git@github.com:TuUsuario/E-commerce.git
     ```
 
-2. Navega al directorio del proyecto:
+3. Navega al directorio del proyecto:
     ```sh
-    cd tienda-virtual-backend
+    cd E-commerce
     ```
-
-3. Configura la base de datos en `config.php` con tus credenciales de MySQL.
-
-4. Inicia el servidor PHP:
+4. Inicializa la API en Nodejs
     ```sh
-    php -S localhost:8000
+    nodemon
     ```
+5. Inicializa la API en Python, despues de activar el entorno virtual
+   ```sh
+   uvicorn main:app --reload
+   ```
+   
+### Frontend
+
+6. inicializa el Front.end del Dashboard con Angular
+   ```sh
+   ng serve -o
+   ```
+7. inicializa el Front-end de la tienda en React
+   ```sh
+   npm start - npm run dev
+   ```
+
+
 ## Imágenes del Proyecto
 
 |                                  |                                 |
